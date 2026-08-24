@@ -1,6 +1,3 @@
-
-Sure. Add your name at the bottom like this:
-
 # Personal Portfolio Website
 
 A modern and responsive personal portfolio website created using HTML, CSS, and JavaScript.
