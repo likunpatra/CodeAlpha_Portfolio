@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Developer & Designer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <div class="logo">DevPortfolio<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p class="subtitle">Full-Stack Developer & UI/UX Enthusiast</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I am a passionate software developer with a focus on building clean, responsive, and performant web applications. I turn complex problems into simple, beautiful, and intuitive solutions.</p>
+        <p>When I'm not coding, you can find me exploring new technologies, writing technical guides, or tweaking website aesthetics down to the pixel.</p>
+        <a href="#" class="btn primary-btn resume-btn"><i class="fas fa-file-download"></i> Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="skills">
+    <h2>Skills & Technologies</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+      <div class="skill-card"><i class="fab fa-envira"></i><span>Spring Boot</span></div>
+      <div class="skill-card"><i class="fas fa-chart-bar"></i><span>Tableau</span></div>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <div class="project-img-placeholder">Project Preview</div>
+        <div class="project-info">
+          <h3>E-Commerce Web App</h3>
+          <p>A full-stack online store platform featuring product listings, secure checkout, and user authentication.</p>
+          <div class="project-tags">
+            <span>Spring Boot</span><span>Java</span><span>CSS3</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">Project Preview</div>
+        <div class="project-info">
+          <h3>Restaurant Landing Site</h3>
+          <p>Modern, fully responsive landing page with custom typography, brand storytelling, and reservation forms.</p>
+          <div class="project-tags">
+            <span>HTML5</span><span>CSS3</span><span>JS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-placeholder">Project Preview</div>
+        <div class="project-info">
+          <h3>Telemetry & Machine Analytics</h3>
+          <p>Interactive dashboard suite tracking factory downtime, telemetry trends, and operational efficiency metrics.</p>
+          <div class="project-tags">
+            <span>Tableau</span><span>Data Analysis</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <p>Have a question or want to work together? Drop a message below!</p>
+    
+    <form class="contact-form" onsubmit="event.preventDefault();">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn primary-btn">Send Message</button>
+    </form>
+
+    <div class="social-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <p>&copy; 2026 Your Name. Built with HTML, CSS, & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
